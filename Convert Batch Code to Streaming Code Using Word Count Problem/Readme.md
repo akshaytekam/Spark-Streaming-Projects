@@ -1,4 +1,4 @@
-# Convert Batch Code to Streaming Code Using Word Count Problem in Spark
+# Read real-time Streaming data from Socket and write to Console Using Word Count Problem in Spark
 
 ## Sokect endpoint (ncat) --> input passed as small batch-by-batch --> Input goes through SPARK session word count code logic. --> Output is displayed on Docker jupyter lab container logs.
 
