@@ -15,7 +15,7 @@ NCAT will create the endpoint, which will be use by SPARK for streaming data.
 - Now connect to the Jupyter Lab environment by (localhost://8888)
 - Create .ipynb file and write the code for reading data from sockets.
 - First we write this program for streaming.
-  - Use example.txt as data file. We will count the words from this file.
+  - You can use example.txt as data file for BATCH processing. But we will count the words from stream processing in real-time for this project.
   - Keep Spark UI open in browser by side using (localhost://4040)
   - So once we run the code, it will split the line into words and put it in a list.
   - Use explode() method to put each word into a single row.
