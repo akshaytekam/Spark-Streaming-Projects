@@ -3,8 +3,8 @@
 ### Read the json payload from Kafka topic --> Explode & Flatten this data into dataframe --> using spark show the topic data to the console in real-time.  
 
 ## Content:
-- Read streaming data from KAFKA
-- Flatten and capture device data
+- Read streaming data (json payload) from KAFKA
+- Flatten and capture device data in console
 
 ## STEPS:
 - Go to jupyter lab and start spark session with .config for installing jar packages. (in order to support kafka, we need this)
