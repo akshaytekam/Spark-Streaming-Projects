@@ -20,3 +20,5 @@
 - Now create the schema and apply the schema to payload to read the data.
 - Now that we have our data with us select the specific columns and explode and flatten the data.
 - And at last write the output to the console.
+![Screenshot 2025-01-01 170836](https://github.com/user-attachments/assets/518d5a0e-7eae-4ead-9ccb-0d942eddf46b)
+![Screenshot 2025-01-01 170751](https://github.com/user-attachments/assets/4fc2d978-f021-401e-aac3-22464486cbd1)
