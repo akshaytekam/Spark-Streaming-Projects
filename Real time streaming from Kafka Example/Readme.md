@@ -1,4 +1,4 @@
-# Real time streaming from Kafka
+# Real time streaming from Kafka to the jupyter console using spark
 
 ### Read the json payload from Kafka topic --> Explode & Flatten this data into dataframe --> using spark show the topic data to the console in real-time.  
 
