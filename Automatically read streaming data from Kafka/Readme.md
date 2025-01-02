@@ -1,5 +1,7 @@
 # Automatically reading streaming data from Kafka
 
+### Automatically generating streaming data using python code --> Put that data on kafka topic using python script only --> Now using spark process the data, flatten it and display/sink on the jupyter console. --> Further we can tune it to incease performance
+
 ## Content:
 - Automate streaming data from kafka
 - Triggers in spark streaming (Once, Processingtime, Continuous)
@@ -13,3 +15,7 @@
 - This above python file will aoutomatically generate data.
 - Now run the output streaming query to see the output data on console.
 - Further we can tune the job by increasing the number of partitions so that we can achive parallelism.(means incease the topics)
+
+![Screenshot 2025-01-02 120529](https://github.com/user-attachments/assets/09ec573f-ae2a-4ecc-bf27-5447d06407f1)
+![Screenshot 2025-01-02 120359](https://github.com/user-attachments/assets/b883c710-f762-4f5d-9699-8e3f3ecdfae9)
+![Screenshot 2025-01-02 120434](https://github.com/user-attachments/assets/ce9f457b-9f6f-428d-a137-5a9ba7f1acaf)
