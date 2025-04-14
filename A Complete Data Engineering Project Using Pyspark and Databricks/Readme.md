@@ -1,6 +1,6 @@
 # A Complete Data Engineering Project Using Pyspark and Databricks Lakehouse
 
-## Use Article like for detailed info:-  https://datatoinfolabs.com/a-complete-data-engineering-project-using-pyspark-and-databricks/
+## Use Article link for detailed info:-  https://datatoinfolabs.com/a-complete-data-engineering-project-using-pyspark-and-databricks/
 
 **Project Overview:**
 
