@@ -7,3 +7,5 @@
 **Download SQL Server Express :- https://www.microsoft.com/en-in/sql-server/sql-server-downloads**
 
 **Download SSMS :- https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms**
+
+**Read my article on this project for detailed Info:-  https://datatoinfolabs.com/azure-end-to-end-data-engineering-real-time-project/**
