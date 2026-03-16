@@ -1,4 +1,6 @@
 # End to End Data Engineering Project using Databricks | Lakeflow Spark Declarative Pipeline
+
+### Also Read My Article on This Project: https://datatoinfolabs.com/end-to-end-data-engineering-project-using-databricks-lakeflow-spark-declarative-pipeline/
 ## Introduction:
 
 *This project demonstrates how to build a complete data engineering pipeline using Databricks and Lakeflow Spark Declarative Pipelines. 
