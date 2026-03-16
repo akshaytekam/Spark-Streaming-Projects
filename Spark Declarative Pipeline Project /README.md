@@ -4,7 +4,7 @@
 *This project demonstrates how to build a complete data engineering pipeline using Databricks and Lakeflow Spark Declarative Pipelines. 
 The project simulates a real-world transportation domain scenario where trip data is processed and converted into analytics-ready datasets.*
 
-![Alt text](C:\Users\TEKAM\Downloads\Flow of all the files.png)
+<img src="C:\Users\TEKAM\Downloads\Flow of all the files.png" alt="Alt text" width="300" height="200">
 
 **The pipeline architecture includes:**
 
