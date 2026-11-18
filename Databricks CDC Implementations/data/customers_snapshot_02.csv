@@ -1,0 +1,9 @@
+customer_id,customer_name,city,email,updated_at
+101,Aarav,Pune,aarav@example.com,2026-01-01
+102,Diya,Thane,diya@example.com,2026-02-01
+104,Meera,Nagpur,meera@example.com,2026-01-04
+105,Ishaan,Pune,ishaan.k@example.com,2026-02-02
+106,Sara,Delhi,sara@example.com,2026-01-06
+107,Vivaan,Mumbai,vivaan@example.com,2026-01-07
+108,Anaya,Nanded,anaya@example.com,2026-01-08
+109,Rohan,Aurangabad,rohan@example.com,2026-02-03

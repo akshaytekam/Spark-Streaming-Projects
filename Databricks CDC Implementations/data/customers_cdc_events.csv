@@ -1,0 +1,9 @@
+sequence_num,customer_id,operation,customer_name,city,email,event_time
+1,101,UPDATE,Aarav,Pune,aarav@example.com,2026-02-01T09:00:00
+2,102,UPDATE,Diya,Thane,diya@example.com,2026-02-01T09:05:00
+3,109,INSERT,Rohan,Aurangabad,rohan@example.com,2026-02-01T09:10:00
+4,103,DELETE,,,,2026-02-01T09:15:00
+5,105,UPDATE,Ishaan,Pune,ishaan.k@example.com,2026-02-01T09:20:00
+6,110,INSERT,Tara,Kolhapur,tara@example.com,2026-02-01T09:25:00
+7,102,UPDATE,Diya,Navi Mumbai,diya@example.com,2026-02-01T09:30:00
+8,104,DELETE,,,,2026-02-01T09:35:00
