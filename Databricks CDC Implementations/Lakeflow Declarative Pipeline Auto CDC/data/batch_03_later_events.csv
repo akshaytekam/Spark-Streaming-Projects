@@ -1,0 +1,4 @@
+customer_id,customer_name,email,city,operation,sequence_num,event_timestamp
+101,Rahul Sharma,rahul@example.com,Nagpur,UPDATE,10,2026-01-06T11:00:00
+104,Neha Singh,neha@example.com,Hyderabad,DELETE,11,2026-01-06T11:05:00
+105,Sara Khan,sara@example.com,Ahmedabad,UPDATE,12,2026-01-06T11:10:00

@@ -1,0 +1,5 @@
+customer_id,customer_name,email,city,operation,sequence_num,event_timestamp
+101,Rahul Sharma,rahul@example.com,Mumbai,INSERT,1,2026-01-01T09:00:00
+102,Priya Patel,priya@example.com,Delhi,INSERT,2,2026-01-01T09:05:00
+103,Amit Verma,amit@example.com,Bengaluru,INSERT,3,2026-01-01T09:10:00
+104,Neha Singh,neha@example.com,Hyderabad,INSERT,4,2026-01-01T09:15:00
