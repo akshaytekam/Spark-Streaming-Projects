@@ -76,6 +76,23 @@ We will implement:
 3. Watermarking.
 4. Streaming deduplication.
 
+======================================================================
 
+### If an interviewer asks:
 
+**"How would you handle late-arriving data in a real-time Kafka-to-Databricks pipeline and in a batch processing scenario?"**
+
+You can answer like this:
+
+"I would handle late-arriving data differently depending on whether the source is batch-oriented or streaming-oriented.
+
+For batch processing, I would maintain a Bronze layer containing the raw historical records. During ingestion, I would preserve both the business event timestamp and ingestion timestamp. In Silver, I would validate and deduplicate records using a unique event identifier. If older transactions arrive in subsequent batches, I would reprocess the affected historical partitions or use Delta MERGE to update the corresponding records. Finally, I would recompute the affected Gold aggregates.
+
+For real-time processing, I would ingest events from Kafka into a Bronze streaming table using Lakeflow Declarative Pipelines. In Silver, I would apply event-time processing, watermarking and stateful deduplication using dropDuplicatesWithinWatermark(). For example, I might configure a 30-minute watermark depending on the observed lateness distribution and business SLA.
+
+I would then calculate event-time-based window aggregations in Gold.
+
+However, I wouldn't rely exclusively on watermarks because events arriving beyond the watermark are not guaranteed to be processed in stateful operations. Therefore, I would retain the raw Bronze data and implement periodic reconciliation to recover late records and correct historical aggregates.
+
+This approach balances low-latency reporting with historical data completeness."
 
