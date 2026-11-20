@@ -29,7 +29,7 @@ This gives us two layers of protection:
 - Streaming processing for low latency.
 - Batch reconciliation for completeness.
 
-# -----------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------
 ## Understand our batch scenario:
 The question is:
 
@@ -41,4 +41,41 @@ Our solution is to read the complete available landing dataset during each batch
 Reprocess the relevant historical data or recompute affected partitions so late-arriving records are reflected in the analytical tables.
 
 For larger production datasets, we would avoid full refreshes and use incremental ingestion(CDC) with a reliable event key and an idempotent Delta MERGE/upsert strategy. This prevents unnecessarily reprocessing the entire history.
+
+# ------------------------------------------------------------------
+## Streaming Processing scenario:
+
+```text
+E-commerce Application
+        |
+        v
+       Kafka
+        |
+        v
+Databricks Streaming Ingestion
+        |
+        v
+Lakeflow Declarative Pipeline
+        |
+        +------ Bronze
+        |
+        +------ Silver
+        |        |
+        |        +-- Event-time validation
+        |        +-- Watermarking
+        |        +-- Deduplication
+        |
+        +------ Gold
+                 |
+                 +-- 5-minute order aggregation
+                 +-- Revenue calculation
+```
+We will implement:
+1. Timestamp conversion.
+2. Data validation.
+3. Watermarking.
+4. Streaming deduplication.
+
+
+
 
