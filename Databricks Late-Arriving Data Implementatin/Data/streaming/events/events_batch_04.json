@@ -1,0 +1,3 @@
+{"event_id": "E010", "order_id": "O1010", "customer_id": "C009", "event_time": "2026-11-20T10:15:00", "ingest_time": "2026-11-20T10:45:00", "amount": 720.0, "status": "PAID", "channel": "web"}
+{"event_id": "E011", "order_id": "O1011", "customer_id": "C010", "event_time": "2026-11-20T10:18:00", "ingest_time": "2026-11-20T10:18:05", "amount": 560.0, "status": "PAID", "channel": "mobile"}
+{"event_id": "E012", "order_id": "O1012", "customer_id": "C011", "event_time": "2026-11-20T10:20:00", "ingest_time": "2026-11-20T10:20:08", "amount": 2300.0, "status": "PAID", "channel": "web"}

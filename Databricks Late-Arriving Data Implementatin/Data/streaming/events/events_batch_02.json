@@ -1,0 +1,4 @@
+{"event_id": "E005", "order_id": "O1005", "customer_id": "C001", "event_time": "2026-11-20T10:06:00", "ingest_time": "2026-11-20T10:06:05", "amount": 600.0, "status": "CANCELLED", "channel": "mobile"}
+{"event_id": "E006", "order_id": "O1006", "customer_id": "C005", "event_time": "2026-11-20T10:08:00", "ingest_time": "2026-11-20T10:08:12", "amount": 1750.0, "status": "PAID", "channel": "web"}
+{"event_id": "E008", "order_id": "O1008", "customer_id": "C007", "event_time": "2026-11-20T10:10:00", "ingest_time": "2026-11-20T10:10:09", "amount": 310.0, "status": "PAID", "channel": "web"}
+{"event_id": "E009", "order_id": "O1009", "customer_id": "C008", "event_time": "2026-11-20T10:12:00", "ingest_time": "2026-11-20T10:12:06", "amount": 1400.0, "status": "PAID", "channel": "mobile"}

@@ -1,0 +1,1 @@
+{"event_id": "E002", "order_id": "O1002", "customer_id": "C002", "event_time": "2026-11-20T10:02:00", "ingest_time": "2026-11-20T10:02:10", "amount": 850.0, "status": "PAID", "channel": "mobile"}

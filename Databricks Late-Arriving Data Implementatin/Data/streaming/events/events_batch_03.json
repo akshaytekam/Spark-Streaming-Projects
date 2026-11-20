@@ -1,0 +1,2 @@
+{"event_id": "E004", "order_id": "O1004", "customer_id": "C004", "event_time": "2026-11-20T10:01:00", "ingest_time": "2026-11-20T10:25:00", "amount": 2200.0, "status": "PAID", "channel": "web"}
+{"event_id": "E007", "order_id": "O1007", "customer_id": "C006", "event_time": "2026-11-20T10:03:00", "ingest_time": "2026-11-20T10:31:00", "amount": 990.0, "status": "PAID", "channel": "mobile"}
