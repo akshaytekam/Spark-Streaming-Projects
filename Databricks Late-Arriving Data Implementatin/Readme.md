@@ -28,3 +28,17 @@ Our strategy:
 This gives us two layers of protection:
 - Streaming processing for low latency.
 - Batch reconciliation for completeness.
+
+# -----------------------------------------------------------------------------------------------------
+## Understand our batch scenario:
+The question is:
+
+How do we ensure that the 11:00 AM batch updates the 10:00 AM business results?
+
+Our solution is to read the complete available landing dataset during each batch refresh, deduplicate by event_id, and calculate the results using event_time. Because our Bronze materialized view reads the available files again, and Silver and Gold are recomputed from Bronze, the historical event will be incorporated into the appropriate hourly result.
+
+*This is the key batch-processing technique:*
+Reprocess the relevant historical data or recompute affected partitions so late-arriving records are reflected in the analytical tables.
+
+For larger production datasets, we would avoid full refreshes and use incremental ingestion(CDC) with a reliable event key and an idempotent Delta MERGE/upsert strategy. This prevents unnecessarily reprocessing the entire history.
+
